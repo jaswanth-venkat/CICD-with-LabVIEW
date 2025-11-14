@@ -11,40 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Functions" Type="Folder">
-			<Item Name="Add.vi" Type="VI" URL="../SubVIs/Add.vi"/>
-		</Item>
-		<Item Name="Pre-Build" Type="Folder">
-			<Item Name="RunCL - Run All Tests.vi" Type="VI" URL="../Pre-Build/RunCL - Run All Tests.vi"/>
-		</Item>
-		<Item Name="Unit Tests" Type="Folder">
-			<Item Name="Scalar Addition.vi" Type="VI" URL="../UnitTests/Scalar Addition.vi"/>
-			<Item Name="Vector Addition.vi" Type="VI" URL="../UnitTests/Vector Addition.vi"/>
-		</Item>
-		<Item Name="Apply me.vipc" Type="Document" URL="../Apply me.vipc"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Run_All_Tests.vi" Type="VI" URL="../Run_All_Tests.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Assert True.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Assert/Assert True.vi"/>
-				<Item Name="Assert.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Assert/Assert.vi"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Create JUnit Report.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Test Report.JUnit/Create JUnit Report.vi"/>
-				<Item Name="Define Test.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Test/Define Test.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Run.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Test Runner/Run.vi"/>
-				<Item Name="Setup TestRunner Files.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Test Runner.Folder/Setup TestRunner Files.vi"/>
-				<Item Name="Setup TestRunner Folder.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Test Runner.Folder/Setup TestRunner Folder.vi"/>
-				<Item Name="VI Tree - Caraya.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/VI Tree - Caraya.vi"/>
-			</Item>
-			<Item Name="Append Path to Root if Relative - Scalar__ogtk.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2023/user.lib/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Scalar__ogtk.vi"/>
-			<Item Name="Append Path to Root if Relative__ogtk.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2023/user.lib/_OpenG.lib/file/file.llb/Append Path to Root if Relative__ogtk.vi"/>
-			<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2023/user.lib/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
-			<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2023/user.lib/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
-			<Item Name="File Exists__ogtk.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2023/user.lib/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
+			<Item Name="Add.vi" Type="VI" URL="../SubVIs/Add.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LV_Calculator" Type="EXE">
